@@ -1,1 +1,147 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engineering/Design Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #2a2a72;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #4a4a90;
+      padding: 0.5rem 2rem;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?engineering,design') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .container {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      margin-bottom: 1rem;
+      color: #2a2a72;
+    }
+    .grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    footer {
+      background: #2a2a72;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Engineering & Design Portfolio</h1>
+    <p>Showcasing innovative designs, projects, and problem-solving solutions</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <h1>Transforming Ideas into Reality</h1>
+  </section>
+
+  <section class="container" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Welcome to my portfolio. I'm an engineer and designer passionate about creating innovative solutions that make a difference. With a background in [mention your field], I specialize in [mention your expertise]. My work focuses on blending technology and design to improve user experiences and optimize functionality.</p>
+  </section>
+
+  <section class="container" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?technology" alt="Project 1">
+        <h3>Project Title 1</h3>
+        <p>A brief description of the project and its significance.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?innovation" alt="Project 2">
+        <h3>Project Title 2</h3>
+        <p>A brief description of the project and its significance.</p>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/400x300/?engineering" alt="Project 3">
+        <h3>Project Title 3</h3>
+        <p>A brief description of the project and its significance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>If you'd like to connect or learn more about my work, feel free to reach out:</p>
+    <ul>
+      <li>Email: your.email@example.com</li>
+      <li>LinkedIn: <a href="https://linkedin.com" target="_blank">Your Profile</a></li>
+      <li>GitHub: <a href="https://github.com" target="_blank">Your GitHub</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
+
